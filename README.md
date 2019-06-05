@@ -22,6 +22,10 @@ _After procuring a GPU machine (see https://medium.com/@ajitrajasekharan/setting
 ![Output of multi_gpu.py](multi_gpu.png)
 
 _note the batch of 30 inputs is spread across 8 GPUs - 7 GPUs get 4 inputs and the last gets 2.  7*4 + 2 = 30._
+
+# Attribution
+ The multigpu test is a near verbatim extraction from the PyTorch tutorial https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html 
+ 
 # License
 
 MIT License
