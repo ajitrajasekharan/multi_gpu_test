@@ -7,7 +7,7 @@ This is an assortment of utilities/scripts
 # Install steps
 _After procuring a GPU machine (see https://medium.com/@ajitrajasekharan/setting-up-a-machine-with-gpu-s-in-google-cloud-step-by-step-instructions-c6aa1086d8f9 for instructions)_
 * Run first.sh - _this will install basic utilities for next steps_
-* Follow instructions in link above to get drivers for Nvidia. Install for Ubuntu 16.04 is provided in this repository _(second.sh)_
+* Run second.sh - _Follow instructions in link above to get drivers for Nvidia. Install for Ubuntu 16.04 is provided in this repository (in second.sh - commented by default)_
 * Confirm proper installation using _nvidia_smi_
 
 ![nvidia_smi command output](install.png)
