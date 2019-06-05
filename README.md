@@ -21,7 +21,7 @@ _After procuring a GPU machine (see https://medium.com/@ajitrajasekharan/setting
 
 ![Output of multi_gpu.py](multi_gpu.png)
 
-_note the batch of 30 inputs is spread across 8 GPUs - 7 GPUs get 4 inputs and the last gets 2.  7*4 + 2 = 30._
+_note the batch of 30 inputs is spread across 8 GPUs - 7 GPUs get 4 inputs and the last gets 2 (7*4 + 2 = 30)._
 
 
 # Attribution
