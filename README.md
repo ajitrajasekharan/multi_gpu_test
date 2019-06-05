@@ -20,3 +20,8 @@ _After procuring a GPU machine (see https://medium.com/@ajitrajasekharan/setting
 * python multi_gpu.py
 
 ![Output of multi_gpu.py](multi_gpu.png)
+
+
+# License
+
+MIT License
