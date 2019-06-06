@@ -9,5 +9,5 @@ if ! dpkg-query -W cuda-10-0; then
   apt-get update
   apt-get install cuda-10-0 -y
 fi
-# Enable persistence mode
+# Enable persistence mode 
 nvidia-smi -pm 1
