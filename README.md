@@ -1,6 +1,7 @@
 # multi_gpu_test
 Parallelization with PyTorch on multi GPU machines _(tested on Google Cloud GPU machines)_ 
 This is an assortment of utilities/scripts 
+ * Scripts to setup a Google cloud machine with one or more GPUs _(to procure a GPU machine see https://medium.com/@ajitrajasekharan/setting-up-a-machine-with-gpu-s-in-google-cloud-step-by-step-instructions-c6aa1086d8f9 for instructions)_
  * Pytorch installation steps/scripts 
  * Test utility to check multi gpu execution
 
