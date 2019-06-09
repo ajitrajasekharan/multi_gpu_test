@@ -10,8 +10,8 @@ if [ "$response" = "Y" ]
 then
 	#Use the script below only for Ubuntu version 16.04
 	echo "Echo Installing driver for $OS $VERSION"
-	#sudo ./ubuntu_16_04_nvidia_driver.sh
-	#nvidia-smi
+	sudo ./ubuntu_16_04_nvidia_driver.sh
+	nvidia-smi
 else
 	echo "(1) Choose drivers from link below. (2) Save into file say driver.sh. (3) sudo ./driver.sh"
 	echo "Link: https://cloud.google.com/compute/docs/gpus/add-gpus#install-gpu-driver"
