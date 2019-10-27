@@ -8,6 +8,7 @@ function step1
 	sudo apt-get install zip 
 	wget https://repo.continuum.io/archive/Anaconda2-2018.12-Linux-x86_64.sh
 	bash Anaconda2-2018.12-Linux-x86_64.sh
+	echo "************ DO NOT SKIP STEP BELOW BEFORE PROCEEDING TO NEXT INSTALL STEP ******"
 	echo "Perform:"
 	echo ". ~/.bashrc"
 	echo " and confirm conda command is found"
@@ -20,6 +21,8 @@ function step2
 {
 	#echo "Starting PyTorch install"
 	conda create -n bert python=3.6;
+	echo "************ DO NOT SKIP STEP BELOW BEFORE PROCEEDING. ******"
+	echo "************ FAILURE TO ACTIVE CONDA ENV WILL CAUSE NEXT STEPS TO FAIL. ******"
         echo "Perform:  conda activate bert"
 	echo "Then perform step3:"
 	echo "./third.sh 3"
