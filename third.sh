@@ -44,6 +44,7 @@ function step4
 {
 	sudo apt install python3-pip; pip3 install torchvision;  pip install transformers; pip3 install seqeval; pip3 install tqdm; pip3 install nltk; pip install tensorboardX;
 
+	echo "If we dont need tensorflow. Skip step 5. NOTE: In some versions on multigpu machines, performing step 5 can cause training to fail"
 	echo "Perform step5:"
 	echo "./third.sh 5"
 }
