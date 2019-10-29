@@ -9,11 +9,13 @@ function step1
 	wget https://repo.continuum.io/archive/Anaconda2-2018.12-Linux-x86_64.sh
 	bash Anaconda2-2018.12-Linux-x86_64.sh
 	echo "************ DO NOT SKIP STEP BELOW BEFORE PROCEEDING TO NEXT INSTALL STEP ******"
-	echo "Perform:"
-	echo ". ~/.bashrc"
-	echo " and confirm conda command is found"
+	echo "1) Perform:"
+	echo "   . ~/.bashrc"
+	echo " and confirm conda command is found by typing"
+	echo "2)    conda | head -1"
 	echo "Perform step2:"
-	echo "./third.sh 2"
+	echo "3)      ./third.sh 2"
+	echo "************ DO NOT SKIP the THREE STEPS ABOVE BEFORE PROCEEDING TO NEXT INSTALL STEP ******"
 	 
 }
 
@@ -23,9 +25,12 @@ function step2
 	conda create -n bert python=3.6;
 	echo "************ DO NOT SKIP STEP BELOW BEFORE PROCEEDING. ******"
 	echo "************ FAILURE TO ACTIVE CONDA ENV WILL CAUSE NEXT STEPS TO FAIL. ******"
-        echo "Perform:  conda activate bert"
-	echo "Then perform step3:"
-	echo "./third.sh 3"
+        echo "Perform:"
+        echo "1)  conda activate bert"
+	echo "Then perform:"
+	echo "2)      ./third.sh 3"
+	echo "************ DO NOT SKIP STEP ABOVE BEFORE PROCEEDING. ******"
+	echo "************ FAILURE TO ACTIVE CONDA ENV WILL CAUSE NEXT STEPS TO FAIL. ******"
 }
 
 function step3
@@ -37,7 +42,7 @@ function step3
 
 function step4
 {
-	sudo apt install python3-pip; pip3 install torchvision; pip install pytorch-transformers; pip install transformers; pip3 install seqeval; pip3 install tqdm; pip3 install nltk; pip install tensorboardX;
+	sudo apt install python3-pip; pip3 install torchvision;  pip install transformers; pip3 install seqeval; pip3 install tqdm; pip3 install nltk; pip install tensorboardX;
 
 	echo "Perform step5:"
 	echo "./third.sh 5"

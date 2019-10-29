@@ -17,4 +17,4 @@ else
 	echo "Link: https://cloud.google.com/compute/docs/gpus/add-gpus#install-gpu-driver"
 fi
 echo
-
+echo "Run ./third.sh 1"
