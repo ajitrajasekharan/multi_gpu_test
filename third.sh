@@ -37,7 +37,7 @@ function step3
 
 function step4
 {
-	sudo apt install python3-pip; pip3 install torchvision; pip install transformers; pip3 install seqeval; pip3 install tqdm; pip3 install nltk
+	sudo apt install python3-pip; pip3 install torchvision; pip install pytorch-transformers; pip install transformers; pip3 install seqeval; pip3 install tqdm; pip3 install nltk
 	echo "Perform step5:"
 	echo "./third.sh 5"
 }
