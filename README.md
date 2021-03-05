@@ -27,8 +27,8 @@ _note the batch of 30 inputs is spread across 8 GPUs - 7 GPUs get 4 inputs and t
 
 
 # Attribution
- The multigpu test (multi_gpu.py)  is a near verbatim extraction from the PyTorch tutorial https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html 
- Tensorflow test is  near verbatim extraction from the blog https://jhui.github.io/2017/03/07/TensorFlow-GPU/
+*  The multigpu test (multi_gpu.py)  is a near verbatim extraction from the PyTorch tutorial https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html 
+*  Tensorflow test is  near verbatim extraction from the blog https://jhui.github.io/2017/03/07/TensorFlow-GPU/
  
 
 # License
