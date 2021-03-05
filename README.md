@@ -1,4 +1,5 @@
 # multi_gpu_test
+
 Parallelization with PyTorch on multi GPU machines _(tested on Google Cloud GPU machines)_ 
 This is an assortment of utilities/scripts 
  * Scripts to setup a Google cloud machine with one or more GPUs _(to procure a GPU machine see https://medium.com/@ajitrajasekharan/setting-up-a-machine-with-gpu-s-in-google-cloud-step-by-step-instructions-c6aa1086d8f9 for instructions)_
@@ -27,6 +28,7 @@ _note the batch of 30 inputs is spread across 8 GPUs - 7 GPUs get 4 inputs and t
 
 # Attribution
  The multigpu test (multi_gpu.py)  is a near verbatim extraction from the PyTorch tutorial https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html 
+ Tensorflow test is  near verbatim extraction from the blog https://jhui.github.io/2017/03/07/TensorFlow-GPU/
  
 
 # License
